@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-model = pickle.load(open('/Users/prachisatardekar/Desktop/DiabetesTest/trained_model.sav', 'rb'))
+model = pickle.load(open('trained_model.sav', 'rb'))
 
 # Define the function to predict diabetes
 def predict_diabetes(pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, age):
